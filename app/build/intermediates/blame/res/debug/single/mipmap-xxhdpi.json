@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\MyAllStudioProject\\MyApplication\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\MyAllStudioProject\\MyApplication\\MySelfAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\MyAllStudioProject\\MyApplication\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "E:\\MyAllStudioProject\\MyApplication\\MySelfAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    }
+]
