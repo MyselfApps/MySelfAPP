@@ -1,23 +1,63 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.android.application'
 
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.myself.app"
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    dataBinding {
+        enabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+/*使用green到的时候这句话必须要在*/
+apply plugin: 'org.greenrobot.greendao'
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
-        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.0'//使用greenDao的时候，一定需要记住在这里进行配置
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.1.1'
     }
 }
-
-allprojects {
-    repositories {
-        jcenter()
-    }
+greendao {
+    schemaVersion 2
+    daoPackage 'com.myself.app.model.greendao.dao'
+    targetGenDir 'src/main/java'
 }
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //greendao
+    compile 'org.greenrobot:greendao:3.1.1'
+    compile 'org.greenrobot:greendao-api:3.1.1'
+    compile 'org.greenrobot:greendao-generator:3.0.0'
+    // retrofit
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    // glide
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC0'
+    // fresco
+    compile 'com.facebook.fresco:fresco:1.3.0'
+    compile project(':rxretrofitlib')
 }
