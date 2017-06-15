@@ -7,6 +7,8 @@ package com.myself.app.utils;
 
 public class Utils {
 
+    public static final String DB_NAME ="myself.db";
+
     private Utils() {
     }
 
