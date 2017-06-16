@@ -1,8 +1,8 @@
 package com.myself.rxretrofitlib.api;
 
-import java.util.Observable;
 
 import retrofit2.Retrofit;
+import rx.Observable;
 
 /**
  * 请求数据统一封装类
