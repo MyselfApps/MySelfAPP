@@ -22,10 +22,28 @@ android {
         }
     }
 }
+/*使用green到的时候这句话必须要在*/
+apply plugin: 'org.greenrobot.greendao'
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.1.1'
+    }
+}
+greendao {
+    schemaVersion 1
+    daoPackage 'com.myself.rxretrofitlib.utils.dao'
+    targetGenDir 'src/main/java'
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'org.greenrobot:greendao:3.2.0'
+    //greendao
+    compile 'org.greenrobot:greendao:3.1.1'
+    compile 'org.greenrobot:greendao-api:3.1.1'
+    compile 'org.greenrobot:greendao-generator:3.0.0'
     /*rx-android-java*/
     compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
     compile 'com.trello:rxlifecycle:1.0'

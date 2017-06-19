@@ -5,13 +5,17 @@ import android.content.Context;
 import android.content.DialogInterface;
 
 import com.myself.rxretrofitlib.api.BaseApi;
+import com.myself.rxretrofitlib.exception.ApiException;
+import com.myself.rxretrofitlib.exception.CodeException;
+import com.myself.rxretrofitlib.exception.HttpTimeException;
 import com.myself.rxretrofitlib.http.cookie.CookieResult;
 import com.myself.rxretrofitlib.listener.HttpOnNextListener;
 import com.myself.rxretrofitlib.utils.AppUtil;
-import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
+import com.myself.rxretrofitlib.utils.CookieDbUtil;
 
 import java.lang.ref.SoftReference;
 
+import rx.Observable;
 import rx.Subscriber;
 
 /**
@@ -91,27 +95,118 @@ public class ProgressSubscriber<T> extends Subscriber<T> {
         return showProgress;
     }
 
+    /**
+     * 完成后隐藏dialog
+     */
     @Override
     public void onCompleted() {
-
+        dismissProgressDialog();
     }
 
+    /**
+     * 错误处理
+     *
+     * @param e
+     */
     @Override
     public void onError(Throwable e) {
-
+        if (api.isCache()) {
+            getCache();
+        } else {
+            errorDo(e);
+        }
+        dismissProgressDialog();
     }
 
+    /**
+     * 将onNext方法中的返回结果交给Activity或Fragment处理
+     * @param t 创建Subscriber时的泛型类型
+     */
     @Override
     public void onNext(T t) {
-
+        if (api.isCache()){
+            CookieResult result = CookieDbUtil.getInstance().queryCookieBy(api.getUrl());
+            long time = System.currentTimeMillis();
+            if (result == null){
+                result = new CookieResult(api.getUrl(),t.toString(),time);
+                CookieDbUtil.getInstance().saveCookie(result);
+            }else{
+                result.setResult(t.toString());
+                result.setTime(time);
+                CookieDbUtil.getInstance().updateCookie(result);
+            }
+        }
+        if (mSubscriberOnNextListener.get() != null){
+            mSubscriberOnNextListener.get().onNext((String) t,api.getMethod());
+        }
     }
 
     @Override
     public void onStart() {
         showProgressDialog();
         if (api.isCache() && AppUtil.isNetworkAvailable(mActivity.get())) {
-//            CookieResult cookieResult =
+            CookieResult cookieResult = CookieDbUtil.getInstance().queryCookieBy(api.getUrl());
+            if (cookieResult != null) {
+                long time = (System.currentTimeMillis() - cookieResult.getTime()) / 1000;
+                if (time < api.getCookieNetWorkTime()) {
+                    if (mSubscriberOnNextListener.get() != null) {
+                        mSubscriberOnNextListener.get().onNext(cookieResult.getResult(), api.getMethod());
+                    }
+                    onCompleted();
+                    unsubscribe();
+                }
+            }
+        }
+    }
 
+    public void getCache() {
+        Observable.just(api.getUrl()).subscribe(new Subscriber<String>() {
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+                errorDo(e);
+            }
+
+            @Override
+            public void onNext(String s) {
+                CookieResult cookieResult = CookieDbUtil.getInstance().queryCookieBy(s);
+                if (cookieResult == null) {
+                    throw new HttpTimeException(HttpTimeException.NO_CHANGE_ERROR);
+                }
+                long time = (System.currentTimeMillis() - cookieResult.getTime()) / 1000;
+                if (time < api.getCookieNetWorkTime()) {
+                    if (mSubscriberOnNextListener.get() != null) {
+                        mSubscriberOnNextListener.get().onNext(cookieResult.getResult(), api.getMethod());
+                    }
+                } else {
+                    CookieDbUtil.getInstance().deleteCookie(cookieResult);
+                    throw new HttpTimeException(HttpTimeException.CHANGE_TIMEOUT_ERROR);
+                }
+            }
+        });
+    }
+
+    /**
+     * 错误同意处理
+     *
+     * @param e e
+     */
+    private void errorDo(Throwable e) {
+        Context context = mActivity.get();
+        if (context == null) return;
+        HttpOnNextListener httpOnNextListener = mSubscriberOnNextListener.get();
+        if (httpOnNextListener == null) return;
+        if (e instanceof ApiException) {
+            httpOnNextListener.onError((ApiException) e);
+        } else if (e instanceof HttpTimeException) {
+            HttpTimeException exception = (HttpTimeException) e;
+            httpOnNextListener.onError(new ApiException(exception, CodeException.RUNTIME_ERROR, exception.getMessage()));
+        } else {
+            httpOnNextListener.onError(new ApiException(e, CodeException.UNKNOWN_ERROR, e.getMessage()));
         }
     }
 }

@@ -1,6 +1,7 @@
 package com.myself.rxretrofitlib.http.cookie;
 
 import org.greenrobot.greendao.annotation.Entity;
+import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Id;
 
 /**
@@ -21,7 +22,8 @@ public class CookieResult {
         this.time = time;
     }
 
-    public CookieResult(long id,String url,String result,long time){
+    @Generated(hash = 1914207567)
+    public CookieResult(long id, String url, String result, long time) {
         this.id = id;
         this.url = url;
         this.result = result;

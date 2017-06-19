@@ -3,6 +3,7 @@ package com.myself.rxretrofitlib.download;
 import com.myself.rxretrofitlib.listener.HttpDownOnNextListener;
 
 import org.greenrobot.greendao.annotation.Entity;
+import org.greenrobot.greendao.annotation.Generated;
 import org.greenrobot.greendao.annotation.Id;
 import org.greenrobot.greendao.annotation.Transient;
 
@@ -41,6 +42,7 @@ public class DownInfo {
         this.url = url;
     }
 
+    @Generated(hash = 746866768)
     public DownInfo(long id, String savePath, long countLength, long readLength, int connectionTime, int stateInte, String url) {
         this.id = id;
         this.savePath = savePath;

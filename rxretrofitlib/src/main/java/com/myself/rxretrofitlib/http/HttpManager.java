@@ -27,6 +27,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
+ * http交互处理类
  * Created by Administrator on 2017/6/15 0015.
  */
 
@@ -36,18 +37,18 @@ public class HttpManager {
     private SoftReference<RxAppCompatActivity> appCompatActivity;
 
     public HttpManager(HttpOnNextListener onNextListener, RxAppCompatActivity appCompatActivity) {
-        this.onNextListener = new SoftReference<HttpOnNextListener>(onNextListener);
-        this.appCompatActivity = new SoftReference<RxAppCompatActivity>(appCompatActivity);
+        this.onNextListener = new SoftReference<>(onNextListener);
+        this.appCompatActivity = new SoftReference<>(appCompatActivity);
     }
 
     public HttpManager(HttpOnNextSubListener onNextSubListener,RxAppCompatActivity appCompatActivity){
-        this.onNextSubListener = new SoftReference<HttpOnNextSubListener>(onNextSubListener);
-        this.appCompatActivity = new SoftReference<RxAppCompatActivity>(appCompatActivity);
+        this.onNextSubListener = new SoftReference<>(onNextSubListener);
+        this.appCompatActivity = new SoftReference<>(appCompatActivity);
     }
 
     /**
      * 处理Http请求
-     * @param baserPar 封装的请求数据
+     * @param basePar 封装的请求数据
      */
     public void doHttpDeal(final BaseApi basePar){
         Retrofit retrofit = getRetrofit(basePar.getConnectionTime(),basePar.getBaseUrl());

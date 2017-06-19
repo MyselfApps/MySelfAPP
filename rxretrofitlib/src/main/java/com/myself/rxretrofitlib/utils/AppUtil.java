@@ -19,7 +19,7 @@ import okhttp3.ResponseBody;
  */
 
 public class AppUtil {
-
+    public final static String DBNAME = "download.db";
     /**
      * 判断是否有网络是否有效
      *

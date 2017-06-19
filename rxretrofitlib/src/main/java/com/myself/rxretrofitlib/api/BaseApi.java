@@ -121,4 +121,8 @@ public abstract class BaseApi {
     public void setRetryIncreaseDelay(long retryIncreaseDelay) {
         this.retryIncreaseDelay = retryIncreaseDelay;
     }
+
+    public String getUrl() {
+        return baseUrl + method;
+    }
 }
