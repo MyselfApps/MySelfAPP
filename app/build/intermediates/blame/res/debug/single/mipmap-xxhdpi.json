@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\MyAllStudioProject\\MyApplication\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "E:\\MyAllStudioProject\\MyApplication\\MySelfAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\MyAllStudioProject\\MyApplication\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
-        "source": "E:\\MyAllStudioProject\\MyApplication\\MySelfAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     }
 ]

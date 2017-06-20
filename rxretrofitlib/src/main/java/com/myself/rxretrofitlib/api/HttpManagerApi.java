@@ -33,7 +33,7 @@ public class HttpManagerApi extends BaseApi {
     }
 
     @Override
-    public Observable getObervable(Retrofit retrofit) {
+    public Observable getObservable(Retrofit retrofit) {
         return null;
     }
 }

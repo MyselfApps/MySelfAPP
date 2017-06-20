@@ -1,27 +1,28 @@
 package com.myself.app.viewModel;
 
-import android.os.Handler;
+import android.content.Context;
+import android.content.Intent;
+import android.databinding.ObservableField;
 import android.view.View;
-import android.widget.Toast;
 
 import com.myself.app.R;
 import com.myself.app.databinding.ActivityMainBinding;
+import com.myself.app.view.HttpTestActivity;
 
 /**
+ * 与xml文件匹配的所有参数和方法都要是public类型
  * Created by Administrator on 2017/6/12 0012.
  */
 
 public class MainViewModel extends ViewModel {
     private static final String TAG = "MainViewModel";
-    private ActivityMainBinding binding;
+    private Context context;
+    public ObservableField<String> tvText;//参数的名字必须与xml文件中的相对应android:text="@{viewModel.tvText}"
 
-    public MainViewModel(ActivityMainBinding binding) {
-        this.binding = binding;
-        initView();
-    }
-
-    private void initView() {
-        binding.tv.setText("hahahahhaha");
+    public MainViewModel(Context context) {
+        super(context);
+        this.context = context;
+        tvText = new ObservableField<>("Let's begin");
     }
 
 
@@ -34,8 +35,9 @@ public class MainViewModel extends ViewModel {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.main_btn:
-                setChanged();
-                notifyObservers();
+                Intent intent = new Intent(context, HttpTestActivity.class);
+                context.startActivity(intent);
+//                update();
                 break;
         }
     }

@@ -1,5 +1,7 @@
 package com.myself.rxretrofitlib.http;
 
+import android.app.Activity;
+import android.content.Context;
 import android.util.Log;
 
 import com.myself.rxretrofitlib.RxRetrofitApp;
@@ -22,7 +24,6 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 import rx.Observable;
-import rx.Scheduler;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
@@ -52,7 +53,7 @@ public class HttpManager {
      */
     public void doHttpDeal(final BaseApi basePar){
         Retrofit retrofit = getRetrofit(basePar.getConnectionTime(),basePar.getBaseUrl());
-        httpDeal(basePar.getObervable(retrofit),basePar);
+        httpDeal(basePar.getObservable(retrofit),basePar);
     }
 
     /**

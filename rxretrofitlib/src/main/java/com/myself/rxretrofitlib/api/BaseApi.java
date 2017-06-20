@@ -1,6 +1,8 @@
 package com.myself.rxretrofitlib.api;
 
 
+import com.myself.rxretrofitlib.RxRetrofitApp;
+
 import retrofit2.Retrofit;
 import rx.Observable;
 
@@ -16,7 +18,7 @@ public abstract class BaseApi {
     // 是否需要缓存处理
     private boolean cache = false;
     // 基础url
-    private String baseUrl = "";
+    private String baseUrl = RxRetrofitApp.getBaseUrl();
     //方法--如果需要设置缓存则必须设置这个参数，不需要缓存则不需要设置
     private String method = "";
     //这只超时时间6s
@@ -32,7 +34,7 @@ public abstract class BaseApi {
     //retry 叠加延迟
     private long retryIncreaseDelay = 100;
 
-    public abstract Observable getObervable(Retrofit retrofit);
+    public abstract Observable getObservable(Retrofit retrofit);
 
     public boolean isCancel() {
         return cancel;

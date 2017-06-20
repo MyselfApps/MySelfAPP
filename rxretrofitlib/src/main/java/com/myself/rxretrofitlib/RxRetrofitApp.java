@@ -10,6 +10,7 @@ import android.app.Application;
 public class RxRetrofitApp {
     private static Application application;
     private static boolean debug;
+    private static String baseUrl;
 
     private RxRetrofitApp() {
     }
@@ -22,6 +23,16 @@ public class RxRetrofitApp {
     public static void init(Application app, boolean debug) {
         setDebug(debug);
         setApplication(app);
+    }
+    public static void init(Application app,boolean debug,String baseUrl){
+        setApplication(app);
+        setDebug(debug);
+        setBaseUrl(baseUrl);
+    }
+
+    public static void init(Application app,String baseUrl){
+        setApplication(app);
+        setBaseUrl(baseUrl);
     }
 
     public static Application getApplication() {
@@ -40,5 +51,11 @@ public class RxRetrofitApp {
         return debug;
     }
 
+    public static String getBaseUrl() {
+        return baseUrl;
+    }
 
+    public static void setBaseUrl(String baseUrl) {
+        RxRetrofitApp.baseUrl = baseUrl;
+    }
 }
