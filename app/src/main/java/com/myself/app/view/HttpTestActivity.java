@@ -17,7 +17,7 @@ import java.util.Observable;
  * Created by zhujl on 2017/6/20 0020.
  */
 
-public class HttpTestActivity extends BaseActivity {
+public class HttpTestActivity extends BaseRxActivity {
     private static final String TAG = "HttpTestActivity";
     private Context context;
 
@@ -26,7 +26,6 @@ public class HttpTestActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         context = this;
         initBinding();
-        String url = String.format(Utils.PROJECTS_LIST, Utils.USERID);
     }
 
     private void initBinding() {

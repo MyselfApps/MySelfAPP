@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.myself.app.R;
 import com.myself.app.databinding.ActivityMainBinding;
+import com.myself.app.view.DialogShowActivity;
 import com.myself.app.view.HttpTestActivity;
 
 /**
@@ -38,6 +39,10 @@ public class MainViewModel extends ViewModel {
                 Intent intent = new Intent(context, HttpTestActivity.class);
                 context.startActivity(intent);
 //                update();
+                break;
+            case R.id.dialog_show_btn:
+                intent = new Intent(context, DialogShowActivity.class);
+                context.startActivity(intent);
                 break;
         }
     }

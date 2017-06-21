@@ -4,8 +4,8 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_shape_et_bg.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_shape_et_bg.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
@@ -16,6 +16,142 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_selector_left_bottom.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_selector_left_bottom.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_shape_et_cursor.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_shape_et_cursor.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0c4f6300ae62eafe533438325130381ad28895cd\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_live_divider.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_live_divider.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_shape_progress.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_shape_progress.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_rotate_mum_light.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_rotate_mum_light.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_selector_all.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_selector_all.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_selector_all_top.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_selector_all_top.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_left_bg.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\btn_left_bg.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_datepick_top_left_right_coner.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_datepick_top_left_right_coner.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_right_bg.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\btn_right_bg.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0c4f6300ae62eafe533438325130381ad28895cd\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_wheel_val.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_wheel_val.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0c4f6300ae62eafe533438325130381ad28895cd\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_shape_wihte_round_corner.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_shape_wihte_round_corner.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_selector_all_no.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_selector_all_no.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_shape_gray_round_l_corner.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_shape_gray_round_l_corner.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_shape_gray_round_corner.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_shape_gray_round_corner.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_selector_right_bottom.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_selector_right_bottom.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
@@ -24,8 +160,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_spinner_mum_light.png",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_spinner_mum_light.png"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_bg.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\border_bg.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
@@ -44,28 +184,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
@@ -76,28 +200,24 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_shape_progress_light.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_shape_progress_light.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_selector_all_bottom.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_selector_all_bottom.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0c4f6300ae62eafe533438325130381ad28895cd\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
@@ -108,20 +228,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_rotate_mum.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_rotate_mum.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
@@ -140,12 +252,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0c4f6300ae62eafe533438325130381ad28895cd\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_spinner_mum.png",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_spinner_mum.png"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",

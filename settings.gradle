@@ -1,1 +1,1 @@
-include ':app', ':rxretrofitlib', ':dialog'
+include ':app', ':rxretrofitlib', ':dialog', ':glide'

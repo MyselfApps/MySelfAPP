@@ -30,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.myself.app.view.HttpTestActivity" />
+        <activity android:name="com.myself.app.view.DialogShowActivity" />
     </application>
 
 </manifest>

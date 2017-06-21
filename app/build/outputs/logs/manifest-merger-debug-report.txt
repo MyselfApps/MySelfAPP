@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:3:5-29
 		INJECTED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml
@@ -18,11 +18,13 @@ ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:5:
 	android:name
 		ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:7:5-23:19
+ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:7:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\3c41e8965550430c85961d0f2d5220a0b070a64e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\0c4f6300ae62eafe533438325130381ad28895cd\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75a3d7914599fc81fece78933100f5d410b6cadb\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\dda99100203c4fd60bf6068f8d2741979ed7c3c4\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fcbbb682d964b068d3b0119f9fda78faaf469df5\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\c0c10e60f2fc8b7b089d4b089ef9182753cc15ec\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\e6ebf00c3b694f95f79ffa6bedb19a2477402fc1\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\0744685930cee44298068df515408e5e2f71fe05\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\5372766afc54b400e87007faf5b8bef98c84916e\output\AndroidManifest.xml:29:5-20
@@ -61,6 +63,10 @@ activity#com.myself.app.view.HttpTestActivity
 ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:22:9-58
 	android:name
 		ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:22:19-56
+activity#com.myself.app.view.DialogShowActivity
+ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:23:9-61
+	android:name
+		ADDED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml:23:19-58
 uses-sdk
 INJECTED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\3c41e8965550430c85961d0f2d5220a0b070a64e\output\AndroidManifest.xml:5:5-7:41
@@ -74,9 +80,13 @@ MERGED from [com.trello:rxlifecycle-components:1.0] C:\Users\Administrator\.andr
 MERGED from [com.trello:rxlifecycle-android:1.0] C:\Users\Administrator\.android\build-cache\380db867aec66ec53ba99bca1df21f7e2f8f8d8d\output\AndroidManifest.xml:17:5-44
 MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\Administrator\.android\build-cache\8435f3deb33a2a8fcdb6c123cdbfa26dffa51506\output\AndroidManifest.xml:6:5-44
 MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\Administrator\.android\build-cache\705cbced9e029bdd672db1516a8525860969bc9b\output\AndroidManifest.xml:19:5-43
+MERGED from [MySelfAPP:dialog:unspecified] F:\Myself\MySelfProject\MySelfAPP\dialog\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\0c4f6300ae62eafe533438325130381ad28895cd\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75a3d7914599fc81fece78933100f5d410b6cadb\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\dda99100203c4fd60bf6068f8d2741979ed7c3c4\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fcbbb682d964b068d3b0119f9fda78faaf469df5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75f21327adf9f8f05a2da8d35120e4ec6bcd2cf0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\c0c10e60f2fc8b7b089d4b089ef9182753cc15ec\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Administrator\.android\build-cache\5d2591bcb938c5175d838bb1f21bd2200a36862e\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.databinding:library:1.3.1] C:\Users\Administrator\.android\build-cache\574e595d496f215f3ce31a6052bfb772ca6526e1\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\e6ebf00c3b694f95f79ffa6bedb19a2477402fc1\output\AndroidManifest.xml:21:5-23:54
@@ -86,7 +96,7 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\9b8b73a467664c8c0e2fa1fab7c0dfce27017b41\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\94b58ed83de2b0e656f287c0c74c58e15e4755f1\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75a3d7914599fc81fece78933100f5d410b6cadb\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\0c4f6300ae62eafe533438325130381ad28895cd\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml
@@ -94,9 +104,12 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.
 		INJECTED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Myself\MySelfProject\MySelfAPP\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75a3d7914599fc81fece78933100f5d410b6cadb\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\0c4f6300ae62eafe533438325130381ad28895cd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75a3d7914599fc81fece78933100f5d410b6cadb\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\dda99100203c4fd60bf6068f8d2741979ed7c3c4\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\fcbbb682d964b068d3b0119f9fda78faaf469df5\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75f21327adf9f8f05a2da8d35120e4ec6bcd2cf0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\c0c10e60f2fc8b7b089d4b089ef9182753cc15ec\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\e6ebf00c3b694f95f79ffa6bedb19a2477402fc1\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\0744685930cee44298068df515408e5e2f71fe05\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\5372766afc54b400e87007faf5b8bef98c84916e\output\AndroidManifest.xml:25:5-27:34
@@ -104,6 +117,6 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\9b8b73a467664c8c0e2fa1fab7c0dfce27017b41\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\94b58ed83de2b0e656f287c0c74c58e15e4755f1\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75a3d7914599fc81fece78933100f5d410b6cadb\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\0c4f6300ae62eafe533438325130381ad28895cd\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\75a3d7914599fc81fece78933100f5d410b6cadb\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\0c4f6300ae62eafe533438325130381ad28895cd\output\AndroidManifest.xml:26:9-47

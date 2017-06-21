@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.HttpTestActivity"/>
+        <activity android:name=".view.DialogShowActivity" />
     </application>
 
 </manifest>

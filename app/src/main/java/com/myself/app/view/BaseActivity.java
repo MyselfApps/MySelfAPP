@@ -2,8 +2,6 @@ package com.myself.app.view;
 
 import android.app.Activity;
 
-import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
-
 import java.util.Observable;
 import java.util.Observer;
 
@@ -12,7 +10,7 @@ import java.util.Observer;
  * Created by zhujl on 2017/6/19 0019.
  */
 
-public class BaseActivity extends RxAppCompatActivity implements Observer {
+public class BaseActivity extends Activity implements Observer {
     private Observable observable;
     private Observer observer;
 

@@ -10,6 +10,14 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">26dp</dimen>
     <dimen name="activity_vertical_margin">26dp</dimen>
+    <dimen name="design_navigation_max_width">320dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0dp</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2dp</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24dp</dimen>
+    <dimen name="design_snackbar_max_width">576dp</dimen>
+    <dimen name="design_snackbar_min_width">320dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</dimen>
+    <dimen name="design_tab_scrollable_min_width">160dp</dimen>
     <dimen name="font_size_10">16sp</dimen>
     <dimen name="font_size_11">18sp</dimen>
     <dimen name="font_size_12">19sp</dimen>
@@ -99,4 +107,9 @@
     <dimen name="widget_size_9">14dp</dimen>
     <dimen name="widget_size_90">144dp</dimen>
     <dimen name="widget_size_96">154dp</dimen>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
 </resources>
