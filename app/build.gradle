@@ -61,4 +61,5 @@ dependencies {
     compile 'com.facebook.fresco:fresco:1.3.0'
     compile project(':rxretrofitlib')
     compile project(':dialog')
+    compile project(':glide')
 }

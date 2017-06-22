@@ -4,12 +4,12 @@
         "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\layout\\dialogui_popu_option_item.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0c4f6300ae62eafe533438325130381ad28895cd\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
@@ -40,24 +40,24 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog_bottom_layout.xml",
-        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\src\\main\\res\\layout\\custom_dialog_bottom_layout.xml"
-    },
-    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog_bottom_layout.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\src\\main\\res\\layout\\custom_dialog_bottom_layout.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",

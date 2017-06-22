@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialogui_selector_left_bottom.xml",
         "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_selector_left_bottom.xml"
+    },
+    {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\75a3d7914599fc81fece78933100f5d410b6cadb\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
