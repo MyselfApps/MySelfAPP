@@ -62,4 +62,5 @@ dependencies {
     compile project(':rxretrofitlib')
     compile project(':dialog')
     compile project(':glide')
+    compile project(':twinklinrefreshlib')
 }

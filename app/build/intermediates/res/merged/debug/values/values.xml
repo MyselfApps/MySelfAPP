@@ -98,6 +98,10 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <color name="Blue">#4674e7</color>
+    <color name="Green">#0ba62c</color>
+    <color name="Orange">#e75946</color>
+    <color name="Yellow">#f4d227</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -548,6 +552,7 @@
             
             <flag name="bottom" value="0x50"/>
         </attr><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="logo"/><attr format="string" name="logoDescription"/><attr format="color" name="titleTextColor"/><attr format="color" name="subtitleTextColor"/><attr name="android:minHeight"/></declare-styleable>
+    <declare-styleable name="TwinklingRefreshLayout"><attr format="dimension" name="tr_max_head_height"/><attr format="dimension" name="tr_head_height"/><attr format="dimension" name="tr_max_bottom_height"/><attr format="dimension" name="tr_bottom_height"/><attr format="dimension" name="tr_overscroll_height"/><attr format="boolean" name="tr_enable_refresh"/><attr format="boolean" name="tr_enable_loadmore"/><attr format="boolean" name="tr_pureScrollMode_on"/><attr format="boolean" name="tr_overscroll_top_show"/><attr format="boolean" name="tr_overscroll_bottom_show"/><attr format="boolean" name="tr_enable_overscroll"/><attr format="dimension" name="tr_headerView"/><attr format="dimension" name="tr_bottomView"/><attr format="boolean" name="tr_floatRefresh"/><attr format="boolean" name="tr_autoLoadMore"/><attr format="boolean" name="tr_enable_keepIView"/><attr format="boolean" name="tr_showRefreshingWhenOverScroll"/><attr format="boolean" name="tr_showLoadingWhenOverScroll"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode">
             
@@ -722,6 +727,7 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="dataBinding" type="id"/>
+    <item name="ex_header" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="onAttachStateChangeListener" type="id"/>

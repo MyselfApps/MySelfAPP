@@ -216,6 +216,10 @@
         "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\dialog\\build\\intermediates\\bundles\\default\\res\\drawable\\dialogui_selector_all_bottom.xml"
     },
     {
+        "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_loading_view.xml",
+        "source": "F:\\Myself\\MySelfProject\\MySelfAPP\\twinklinrefreshlib\\build\\intermediates\\bundles\\default\\res\\drawable\\anim_loading_view.xml"
+    },
+    {
         "merged": "F:\\Myself\\MySelfProject\\MySelfAPP\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0c4f6300ae62eafe533438325130381ad28895cd\\output\\res\\drawable\\design_snackbar_background.xml"
     },

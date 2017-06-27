@@ -31,6 +31,7 @@
         </activity>
         <activity android:name="com.myself.app.view.HttpTestActivity" />
         <activity android:name="com.myself.app.view.DialogShowActivity" />
+        <activity android:name="com.myself.app.view.GlideTestActivity" />
     </application>
 
 </manifest>
